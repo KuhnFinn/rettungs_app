@@ -1,0 +1,98 @@
+4,Grundstruktur der NUN-Algorithmen,NUN
+5,Ersteindruck + standardisierte Untersuchung (cABCDE-Schema),NUN
+6,Lebensbedrohliche externe Blutung,NUN
+7,A - Problem • Symptomorientierte Sofortmaßnahmen,NUN
+8,Fremdkörperentfernung,NUN
+9,Erweiterte (invasive) Atemwegssicherung,NUN
+10,B - Problem • Symptomorientierte Sofortmaßnahmen,NUN
+11,C - Problem • Symptomorientierte Sofortmaßnahmen,NUN
+12,D - Problem • Symptomorientierte Sofortmaßnahmen,NUN
+13,E - Problem • Situationsabhängiges Teammanagement und Prioritäten,NUN
+14,Obstruktive Atemnot,NUN
+15,CPR,NUN
+16,Akutes Koronarsyndrom (ACS),NUN
+17,Kardiales Lungenödem,NUN
+18,Hypertensiver Notfall,NUN
+19,Lungenembolie (LAE),NUN
+20,Lebensbedrohliche Bradykardie kardialer Ursache,NUN
+21,Lebensbedrohliche Tachykardie kardialer Ursache,NUN
+22,Allergischer Schock (Grad 2 + 3),NUN
+23,Sepsis,NUN
+24,Hypoglykämie,NUN
+25,Status generalisierter tonisch-klonischer Anfall (SGTKA),NUN
+26,Schlaganfall,NUN
+27,Thermischer Schaden,NUN
+28,Intoxikation,NUN
+29,Medikamentöse Analgesie - Stärkste Schmerzen,NUN
+30,Akute respiratorische Insuffizienz (ARI),NUN
+31,Empfehlung zur strukturierten Übergabe von Notfallpatienten in den Notaufnahmeeinrichtungen der Kliniken,NUN
+7,Medikamentenapplikation,DBRD
+8,Eskalierendes Atemwegsmanagement,DBRD
+9,Atemwegsnotfälle bei Trachealkanülenträgern – Dislokation,DBRD
+10,Atemwegsnotfälle bei Trachealkanülenträgern – Absaugen/Wechsel,DBRD
+11,Entlastungspunktion – Spannungspneumothorax,DBRD
+12,i.v. Zugang ,DBRD
+13,Intraossärer Zugang – Erwachsener,DBRD
+14,Intraossärer Zugang – Kind ,DBRD
+15,Dislozierter oder funktionsgestörter transurethraler Blasenkatheter ,DBRD
+16,Wirbelsäulenimmobilisation bei Trauma ,DBRD
+17,Leitalgorithmus akuter Thoraxschmerz – ACS ,DBRD
+18,ACS – Algorithmus Morphin + Antiemetika ,DBRD
+19,ACS – Algorithmus Glyceroltrinitrat-Spray ,DBRD
+20,ACS – Algorithmus Acetylsalicylsäure + Heparin ,DBRD
+21,ACS – Algorithmus Diazepam ,DBRD
+22,ACS – Algorithmus Midazolam ,DBRD
+23,Leitsymptom akuter Thoraxschmerz – Bemerkungen ,DBRD
+24,V. a. Schlaganfall,DBRD
+25,Hypertensiver Notfall – Urapidil ,DBRD
+26,Hypertensiver Notfall – Nitrendipin ,DBRD
+27,Nasenbluten – Epistaxis,DBRD
+28,Bedrohliche Bradykardie ,DBRD
+29,Transthorakale Schrittmachertherapie ,DBRD
+30,Tachykarde Herzrhythmusstörungen ,DBRD
+31,Notfallkardioversion ,DBRD
+32,Leitsymptom Dyspnoe/Schock – V. a. Lungenembolie – Erwachsener ,DBRD
+33,Leitalgorithmus kardiales Lungenödem ,DBRD
+34,Kardiales Lungenödem – Glyceroltrinitrat + Furosemid ,DBRD
+35,Respiratorisches/ventilatorisches Versagen – NIV ,DBRD
+36,Bronchoobstruktion – Erwachsener ,DBRD
+37,Anaphylaxie – Erwachsener,DBRD
+38,Fremdkörperentfernung – Erwachsener,DBRD
+39,Hypoglykämie ,DBRD
+40,Krampfanfall – Erwachsener ,DBRD
+41,Starker Erregungszustand – Erwachsener ,DBRD
+42,Sepsis ,DBRD
+43,V. a. drohende Addison-Krise – akute Nebenniereninsuffizienz ,DBRD
+44,Bevorstehende Geburt – Transportentscheidung ,DBRD
+45,Einsetzende Geburt ,DBRD
+46,Neugeborenenversorgung direkt nach der Geburt ,DBRD
+47,Erkennen des kritisch kranken Kindes ,DBRD
+48,Dyspnoe – Kind ,DBRD
+49,Bronchoobstruktion – Asthma – Kind ,DBRD
+50,Pseudokrupp – Adrenalin + Glucocorticoide ,DBRD
+51,Fremdkörperentfernung – Kind ,DBRD
+52,Respiratorisches Versagen – Kind ,DBRD
+53,Anaphylaxie – Kind ,DBRD
+54,Krampfanfall – Kind ,DBRD
+55,Entscheidungsfindung bei Traumapatienten ,DBRD
+56,Management des Patienten im hämorrhagischen Schock ,DBRD
+57,Entscheidung – Anlage einer Beckenschlinge ,DBRD
+58,Management massiver äußerer Blutungen – Hämostatika ,DBRD
+59,Permissive Hypotension bei nicht kontrollierbaren Blutungen ,DBRD
+60,Leitsymptom Verbrennung/Verbrühung – Erwachsener ,DBRD
+61,Leitsymptom Verbrennung/Verbrühung – Kind ,DBRD
+62,Leitalgorithmus starke Schmerzzustände (NRS ≥ 4) ,DBRD
+63,ACS – Algorithmus Morphin + Antiemetika ,DBRD
+64,"Schmerzen (NRS ≥ 4) bei Trauma, Lumbalgie … – Esketamin ",DBRD
+65,"Schmerzen (NRS ≥ 4) bei Trauma, Lumbalgie … – Esketamin ",DBRD
+66,"Schmerzen (NRS ≥ 4) bei Trauma, Lumbalgie … – INTRANASAL ",DBRD
+67,"Schmerzen (NRS ≥ 4) bei Trauma, Lumbalgie … – INTRANASAL ",DBRD
+68,Schmerzen bei Trauma/sonstige Schmerzen – Algorithmus Fentanyl ,DBRD
+69,Abdominelle Schmerzen/Koliken – Erwachsener ,DBRD
+70,Massive Übelkeit/Erbrechen – Antiemetikum ,DBRD
+71,Opiatintoxikation – Naloxon ,DBRD
+72,Alkylphosphatintoxikation – Atropin ,DBRD
+73,Transport/Versorgung invasiv heimbeatmeter Patienten ,DBRD
+74,Entscheidung über die Beförderung von Patienten ,DBRD
+75,Checkliste: Versorgungs-/Beförderungsablehnung durch Patienten ,DBRD
+76,Checkliste: Beförderungsverzicht/Ablehnung durch NotSan,DBRD

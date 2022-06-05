@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:rettungs_app/algorithm_choice.dart';
+import 'package:csv/csv.dart';
 
 void main() {
   runApp(const MyApp());
@@ -37,6 +39,12 @@ class _MyHomePageState extends State<MyHomePage> {
   List<String> searchedDiseases = diseases;
 
   @override
+  void initState() {
+    super.initState();
+    getDiseaseList();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -54,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     decoration: const InputDecoration(
                         suffixIcon: Icon(Icons.search), hintText: "Krankheit")),
             ),
-            Padding(
+            Expanded(child: Padding(
                 padding: const EdgeInsets.all(4.0),
                 child: ListView.builder(
                     shrinkWrap: true,
@@ -70,7 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                   AlgorithmChoice(searchedDiseases[index]))));
                         },
                       );
-                    })),
+                    }))),
           ],
         ),
       ),
@@ -92,6 +100,19 @@ class _MyHomePageState extends State<MyHomePage> {
       searchedDiseases = newList;
     });
   }
+
+  getDiseaseList()async{
+    String rawData = await rootBundle.loadString("assets/rettungsInhaltsverzeichnis.csv");
+    List<List<dynamic>> _listData = const CsvToListConverter().convert(rawData);
+    directory = _listData;
+    List<String> newList = [];
+    _listData.forEach((element) {
+      newList.add(element[1]);
+    });
+    diseases = newList;
+    filterDiseases("");
+  }
 }
 
-List<String> diseases = ["Allergischer Schock", "Sepsis", "Hypoglykämie"];
+List<String> diseases = [];
+List<List<dynamic>> directory = [];

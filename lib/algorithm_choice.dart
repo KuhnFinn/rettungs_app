@@ -2,6 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:rettungs_app/show_pdf.dart';
 
+import 'main.dart';
+
 class AlgorithmChoice extends StatelessWidget {
   final String disease;
 
@@ -15,8 +17,8 @@ class AlgorithmChoice extends StatelessWidget {
         ),
         body: Column(
           children:  <Widget>[
-            AlgorithmCard("NUN", "Niedersäschische Umsetzung Notfallsanitärgesetz",disease),
-            AlgorithmCard("DBRD", "Deutscher Berufsverband Rettungsdienst e.V.",disease),
+            hasAlgorithm("NUN")?AlgorithmCard("NUN", "Niedersäschische Umsetzung Notfallsanitärgesetz",disease):Container(),
+            hasAlgorithm("DBRD")?AlgorithmCard("DBRD", "Deutscher Berufsverband Rettungsdienst e.V.",disease):Container(),
           ],
         ),
     floatingActionButton: FloatingActionButton(
@@ -25,6 +27,18 @@ class AlgorithmChoice extends StatelessWidget {
         Navigator.popUntil(context, ModalRoute.withName('/'));
       },
     ),);
+  }
+
+  bool hasAlgorithm(String algorithm){
+    bool returnValue  = false;
+    directory.forEach((element) {
+      if(element[1] == disease){
+        if(element[2] == algorithm){
+          returnValue = true;
+        }
+      }
+    });
+    return returnValue;
   }
 }
 
